@@ -30,7 +30,7 @@ public class MessageString implements Message {
             res = this.message;
         }catch(Exception e){
             ExceptionConversionImpossible excep = new ExceptionConversionImpossible("Conversion Impossible en String");
-            System.out.println(excep);
+            excep.gerer();
         }
         return res;
     }
@@ -46,7 +46,7 @@ public class MessageString implements Message {
             res = Integer.parseInt(this.message);
         }catch(Exception e){
             ExceptionConversionImpossible excep = new ExceptionConversionImpossible("Conversion Impossible en Integer");
-            System.out.println(excep);
+            excep.gerer();
         }
         return res;
     }
