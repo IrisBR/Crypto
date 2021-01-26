@@ -16,5 +16,5 @@ public interface Message {
     
     public Integer asInteger();
     
-    public ArrayList<Integer> getListCode();
+    public ArrayList<Integer> getListAsciiCode();
 }

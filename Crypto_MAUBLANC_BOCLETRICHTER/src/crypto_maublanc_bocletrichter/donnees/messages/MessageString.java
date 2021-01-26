@@ -5,6 +5,7 @@
  */
 package crypto_maublanc_bocletrichter.donnees.messages;
 
+import crypto_maublanc_bocletrichter.exceptions.ExceptionConversionImpossible;
 import java.util.ArrayList;
 
 /**
@@ -24,7 +25,14 @@ public class MessageString implements Message {
      */
     @Override
     public String asString() {
-       return this.message;
+        String res = "";
+        try{
+            res = this.message;
+        }catch(Exception e){
+            ExceptionConversionImpossible excep = new ExceptionConversionImpossible("Conversion Impossible en String");
+            System.out.println(excep);
+        }
+        return res;
     }
 
     /**
@@ -33,12 +41,18 @@ public class MessageString implements Message {
      */
     @Override
     public Integer asInteger() {
-        return Integer.parseInt(this.message);
+        Integer res = 0;
+        try{
+            res = Integer.parseInt(this.message);
+        }catch(Exception e){
+            ExceptionConversionImpossible excep = new ExceptionConversionImpossible("Conversion Impossible en Integer");
+            System.out.println(excep);
+        }
+        return res;
     }
 
     @Override
-    public ArrayList<Integer> getListCode() {
+    public ArrayList<Integer> getListAsciiCode() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }
