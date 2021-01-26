@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author alban
+ * @author iris et albane
  */
 public class Cles {
     private HashMap<String, Cle> listeCles;

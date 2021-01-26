@@ -7,7 +7,7 @@ package crypto_maublanc_bocletrichter.donnees.cles;
 
 /**
  *
- * @author alban
+ * @author iris et albane
  */
 public interface Cle {
     public String asString();
