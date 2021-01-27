@@ -5,9 +5,11 @@
  */
 package entites;
 
-import donnees.cles.Cles;
-import donnees.messages.Message;
-import donnees.messages.MessageString;
+import crypto_maublanc_bocletrichter.entites.Univers;
+import crypto_maublanc_bocletrichter.donnees.cles.Cles;
+import crypto_maublanc_bocletrichter.donnees.messages.Message;
+import crypto_maublanc_bocletrichter.donnees.messages.MessageString;
+import crypto_maublanc_bocletrichter.entites.Personne;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import org.junit.jupiter.api.Test;

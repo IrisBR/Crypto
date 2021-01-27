@@ -5,10 +5,7 @@ import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 import crypto_maublanc_bocletrichter.donnees.messages.Message;
 import crypto_maublanc_bocletrichter.donnees.messages.MessageString;
 import crypto_maublanc_bocletrichter.exceptions.ExceptionCryptographie;
-import donnees.cles.Cles;
-import donnees.messages.Message;
-import donnees.messages.MessageString;
-import exceptions.ExceptionCryptographie;
+
 
 
 /**

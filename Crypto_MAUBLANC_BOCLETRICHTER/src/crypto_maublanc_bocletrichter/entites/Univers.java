@@ -30,8 +30,8 @@ public class Univers {
      * Getter de l'attribut instance
      * @return Univers
      */
-    public Univers get(){
-        return this.instance;
+    public static Univers get(){
+        return instance;
     }
     
     /**
@@ -39,8 +39,8 @@ public class Univers {
      * @param identifiant String
      * @param cles Cles
      */
-    public void addCles(String identifiant, Cles cles){
-        this.instance.listeClesPubliques.put(identifiant, cles);
+    public static void addCles(String identifiant, Cles cles){
+        instance.listeClesPubliques.put(identifiant, cles);
     }
     
     /**
@@ -48,8 +48,8 @@ public class Univers {
      * @param identifiant
      * @return 
      */
-    public Cles getCles(String identifiant){
-        return this.instance.listeClesPubliques.get(identifiant);
+    public static Cles getCles(String identifiant){
+        return instance.listeClesPubliques.get(identifiant);
     }
     
     /**
@@ -57,8 +57,8 @@ public class Univers {
      * @param identifiant String
      * @param message Message
      */
-    public void addMessage(String identifiant, Message message){
-        this.instance.listMessagesPublics.put(identifiant, message);
+    public static void addMessage(String identifiant, Message message){
+        instance.listMessagesPublics.put(identifiant, message);
     }
     
     /**
@@ -66,7 +66,7 @@ public class Univers {
      * @param identifiant
      * @return Message
      */
-    public Message getMessage(String identifiant){
-        return this.instance.listMessagesPublics.get(identifiant);
+    public static Message getMessage(String identifiant){
+        return instance.listMessagesPublics.get(identifiant);
     }
 }
