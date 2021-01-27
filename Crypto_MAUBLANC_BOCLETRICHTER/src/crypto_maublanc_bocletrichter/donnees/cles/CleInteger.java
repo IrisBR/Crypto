@@ -15,10 +15,18 @@ public class CleInteger implements Cle{
     
     private Integer cle;
     
+    /**
+     * 
+     * @param cle 
+     */
     public CleInteger(Integer cle){
         this.cle = cle;
     }
 
+    /**
+     * 
+     * @return 
+     */
     @Override
     public String asString() {
         String res = "";
@@ -31,6 +39,10 @@ public class CleInteger implements Cle{
         return res;
     }
 
+    /**
+     * 
+     * @return 
+     */
     @Override
     public Integer asInteger() {
         Integer res = 0;

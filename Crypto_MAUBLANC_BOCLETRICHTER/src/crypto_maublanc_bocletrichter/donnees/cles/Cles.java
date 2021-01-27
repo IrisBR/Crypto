@@ -14,15 +14,28 @@ import java.util.HashMap;
 public class Cles {
     private HashMap<String, Cle> listeCles;
     
+    /**
+     * Constructeur de la classe
+     */
     public Cles(){
         this.listeCles = new HashMap<>();
     }
     
+    /**
+     * 
+     * @param nom
+     * @return 
+     */
     public Cle getCle(String nom){
         Cle c = this.listeCles.get(nom);
         return c;
     }
     
+    /**
+     * 
+     * @param nom
+     * @param cle 
+     */
     public void addCle(String nom, Cle cle){
         this.listeCles.put(nom, cle);
     }

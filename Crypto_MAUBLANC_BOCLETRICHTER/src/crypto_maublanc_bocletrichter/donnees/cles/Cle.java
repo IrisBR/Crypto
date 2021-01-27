@@ -10,7 +10,16 @@ package crypto_maublanc_bocletrichter.donnees.cles;
  * @author iris et albane
  */
 public interface Cle {
+    
+    /**
+     * 
+     * @return 
+     */
     public String asString();
     
+    /**
+     * 
+     * @return 
+     */
     public Integer asInteger();
 }

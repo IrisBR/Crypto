@@ -13,9 +13,28 @@ import crypto_maublanc_bocletrichter.donnees.messages.Message;
  * @author iris et albane
  */
 public interface Algorithme {
-    public static final String nom;
     
+    /**
+     * 
+     * @return 
+     */
+    public abstract String getNom();
+    
+    /**
+     * 
+     * @param message
+     * @param clesPubliques
+     * @param clesPrivees
+     * @return 
+     */
     public Message chiffrer(Message message, Cles clesPubliques, Cles clesPrivees);
     
+    /**
+     * 
+     * @param message
+     * @param clesPubliques
+     * @param clesPrivees
+     * @return 
+     */
     public Message dechiffrer(Message message, Cles clesPubliques, Cles clesPrivees);
 }
