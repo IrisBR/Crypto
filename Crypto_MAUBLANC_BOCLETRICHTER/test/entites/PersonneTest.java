@@ -5,6 +5,7 @@
  */
 package entites;
 
+import algorithmes.chiffrement.AlgorithmeFake;
 import crypto_maublanc_bocletrichter.algorithmes.chiffrement_algorithme.Algorithme;
 import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 import crypto_maublanc_bocletrichter.donnees.messages.Message;

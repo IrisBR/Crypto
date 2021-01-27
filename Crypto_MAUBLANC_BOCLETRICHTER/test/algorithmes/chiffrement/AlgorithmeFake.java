@@ -30,12 +30,12 @@ public class AlgorithmeFake implements Algorithme {
     }
 
     @Override
-    public Message chiffrer(Message message, Cles clesPubliques, Cles clesPrivees) throws ExceptionCryptographie {
+    public Message chiffrer(Message message, Cles clesPubliques, Cles clesPrivees){
         return new MessageString("Chiffre");
     }
 
     @Override
-    public Message dechiffrer(Message message, Cles clesPubliques, Cles clesPrivees) throws ExceptionCryptographie {
+    public Message dechiffrer(Message message, Cles clesPubliques, Cles clesPrivees){
         return new MessageString("Dechiffre");
     }
 

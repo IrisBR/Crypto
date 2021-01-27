@@ -16,13 +16,13 @@ import java.util.HashMap;
 public class Univers {
     private static Univers instance = new Univers();
     private HashMap<String, Cles> listeClesPubliques;
-    private HashMap<String, Message> listMessagesPublics;
+    private HashMap<String, Message> listeMessagesPublics;
     
     /**
      * Constructeur de la classe Univers
      */
     private Univers(){
-        this.listMessagesPublics = new HashMap<String,Message>();
+        this.listeMessagesPublics = new HashMap<String,Message>();
         this.listeClesPubliques = new HashMap<String,Cles>();
     }
     
@@ -58,7 +58,7 @@ public class Univers {
      * @param message Message
      */
     public static void addMessage(String identifiant, Message message){
-        instance.listMessagesPublics.put(identifiant, message);
+        instance.listeMessagesPublics.put(identifiant, message);
     }
     
     /**
@@ -67,6 +67,6 @@ public class Univers {
      * @return Message
      */
     public static Message getMessage(String identifiant){
-        return instance.listMessagesPublics.get(identifiant);
+        return instance.listeMessagesPublics.get(identifiant);
     }
 }
