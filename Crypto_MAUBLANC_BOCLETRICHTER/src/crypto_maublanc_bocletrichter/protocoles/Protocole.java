@@ -9,8 +9,6 @@ package crypto_maublanc_bocletrichter.protocoles;
  *
  * @author iris et albane
  */
-public class Protocole {
-    public void executer(){
-        //A coder
-    }
+public interface Protocole {
+    public void executer();
 }
