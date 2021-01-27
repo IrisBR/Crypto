@@ -37,7 +37,7 @@ public class CleString implements Cle{
 
     @Override
     public Integer asInteger() {
-        throw new ExceptionConversionImpossible("Conversion impossible en Integer");
+        return null;
     }
 
     
