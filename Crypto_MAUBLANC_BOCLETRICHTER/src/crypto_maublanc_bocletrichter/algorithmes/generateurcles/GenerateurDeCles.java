@@ -11,20 +11,16 @@ import crypto_maublanc_bocletrichter.donnees.cles.Cles;
  *
  * @author iris et albane
  */
-public class GenerateurDeCles {
+public interface GenerateurDeCles {
     /**
      * Permet de générer une clé publique
      * @return Cles
      */
-    public Cles genererClePublique(){
-        return null;
-    }
+    public Cles genererClePublique();
     
     /**
      * Permet de générer une clé privée
      * @return Cles
      */
-    public Cles genererClePrivee(){
-        return null;
-    }
+    public Cles genererClePrivee();
 }

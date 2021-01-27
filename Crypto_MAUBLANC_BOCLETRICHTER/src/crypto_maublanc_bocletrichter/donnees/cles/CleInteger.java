@@ -5,6 +5,8 @@
  */
 package crypto_maublanc_bocletrichter.donnees.cles;
 
+import crypto_maublanc_bocletrichter.exceptions.ExceptionConversionImpossible;
+
 /**
  *
  * @author iris et albane
@@ -19,12 +21,26 @@ public class CleInteger implements Cle{
 
     @Override
     public String asString() {
-        return String.valueOf(this.cle);
+        String res = "";
+        try{
+            res = String.valueOf(this.cle);
+        }catch(Exception e){
+            ExceptionConversionImpossible excep = new ExceptionConversionImpossible("Conversion Impossible en String");
+            excep.gerer();
+        }
+        return res;
     }
 
     @Override
     public Integer asInteger() {
-        return this.cle;
+        Integer res = 0;
+        try{
+            res = this.cle;
+        }catch(Exception e){
+            ExceptionConversionImpossible excep = new ExceptionConversionImpossible("Conversion Impossible en String");
+            excep.gerer();
+        }
+        return res;
     }
     
 }
