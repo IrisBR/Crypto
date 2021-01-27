@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package crypto_maublanc_bocletrichter.algorithmes.generateurcles;
+package crypto_maublanc_bocletrichter.algorithmes.generateurCles;
 
 import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 

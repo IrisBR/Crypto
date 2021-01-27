@@ -7,7 +7,7 @@ package crypto_maublanc_bocletrichter.exceptions;
 
 /**
  *
- * @author Utilisateur
+ * @author iris et albane
  */
 public class ExceptionChiffrementImpossible extends ExceptionCryptographie {
     public ExceptionChiffrementImpossible(String message){
