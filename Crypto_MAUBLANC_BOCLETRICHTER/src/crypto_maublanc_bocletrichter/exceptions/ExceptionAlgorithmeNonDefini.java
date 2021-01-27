@@ -11,6 +11,6 @@ package crypto_maublanc_bocletrichter.exceptions;
  */
 public class ExceptionAlgorithmeNonDefini extends ExceptionCryptographie {
     public ExceptionAlgorithmeNonDefini(String message){
-        super("Conversion Impossible",message);
+        super("Algorithme non défini",message);
     }
 }

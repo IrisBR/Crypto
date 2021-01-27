@@ -7,6 +7,8 @@ package crypto_maublanc_bocletrichter.algorithmes.chiffrement_algorithme;
 
 import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 import crypto_maublanc_bocletrichter.donnees.messages.Message;
+import crypto_maublanc_bocletrichter.exceptions.ExceptionChiffrementImpossible;
+import java.util.ArrayList;
 
 /**
  *
@@ -31,7 +33,13 @@ public class Algorithme {
      * @return Message
      */
     public Message chiffrer(Message message, Cles clesPubliques, Cles clesPrivees){
-        Message m = null;
+        Message m = message;
+        try{
+            //A coder
+        }catch(Exception e){
+            ExceptionChiffrementImpossible excep = new ExceptionChiffrementImpossible("Chiffrement Impossible");
+            excep.gerer();
+        }
         return m;
     }
     
@@ -44,6 +52,12 @@ public class Algorithme {
      */
     public Message dechiffrer(Message message, Cles clesPubliques, Cles clesPrivees){
         Message m = null;
+        try{
+            //A coder
+        }catch(Exception e){
+            ExceptionChiffrementImpossible excep = new ExceptionChiffrementImpossible("Chiffrement Impossible");
+            excep.gerer();
+        }
         return m;
     }
 }

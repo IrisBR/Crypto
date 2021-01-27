@@ -11,6 +11,6 @@ package crypto_maublanc_bocletrichter.exceptions;
  */
 public class ExceptionChiffrementImpossible extends ExceptionCryptographie {
     public ExceptionChiffrementImpossible(String message){
-        super("Conversion Impossible",message);
+        super("Chiffrement Impossible",message);
     }
 }
