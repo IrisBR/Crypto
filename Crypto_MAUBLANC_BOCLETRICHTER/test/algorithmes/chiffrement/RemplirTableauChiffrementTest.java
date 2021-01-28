@@ -19,11 +19,6 @@ import static org.junit.Assert.*;
  * @author simonetma
  */
 public class RemplirTableauChiffrementTest {
-    
-    
-
-    
-
     /**
      * Test of dechiffrer method, of class AlgorithmeTransposition.
      * @throws java.lang.Exception
