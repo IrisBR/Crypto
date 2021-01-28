@@ -9,7 +9,7 @@ import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 
 /**
  *
- * @author iris et albane
+ * @author alban
  */
 public interface GenerateurDeCles {
     /**

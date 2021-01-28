@@ -5,7 +5,7 @@
  */
 package algorithmes.generateurdecles;
 
-import crypto_maublanc_bocletrichter.algorithmes.generateurcles.GenerateurDeClesTransposition;
+import crypto_maublanc_bocletrichter.algorithmes.generateurCles.GenerateurDeClesTransposition;
 import crypto_maublanc_bocletrichter.donnees.cles.Cle;
 import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 import crypto_maublanc_bocletrichter.exceptions.ExceptionConversionImpossible;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package crypto_maublanc_bocletrichter.algorithmes.generateurcles;
+package crypto_maublanc_bocletrichter.algorithmes.generateurCles;
 
 import crypto_maublanc_bocletrichter.donnees.cles.CleString;
 import crypto_maublanc_bocletrichter.donnees.cles.Cles;
@@ -13,7 +13,7 @@ import java.security.SecureRandom;
  *
  * @author alban
  */
-public class GenerateurDeClesTransposition implements GenerateurDeCles {
+public class GenerateurDeClesTransposition implements GenerateurDeCles{
     private int taille;
     
     public GenerateurDeClesTransposition(int taille){
