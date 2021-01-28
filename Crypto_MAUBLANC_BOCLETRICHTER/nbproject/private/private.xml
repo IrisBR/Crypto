@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Utilisateur/Documents/GitHub/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/src/crypto_maublanc_bocletrichter/algorithmes/chiffrement_algorithme/AlgorithmeTransposition.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/src/crypto_maublanc_bocletrichter/donnees/cles/CleString.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/test/donnees/cles/CleStringTest.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/src/crypto_maublanc_bocletrichter/donnees/cles/Cle.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/test/algorithmes/chiffrement/AlgorithmeFake.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/test/algorithmes/chiffrement/RemplirTableauChiffrementTest.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/src/crypto_maublanc_bocletrichter/algorithmes/generateurcles/GenerateurDeClesTransposition.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/test/donnees/messages/MessageStringTest.java</file>
+            <file>file:/C:/Users/alban/Desktop/cours/S4/Crypto/Crypto_MAUBLANC_BOCLETRICHTER/test/algorithmes/generateurdecles/GenerateurDeClesTranspositionTest.java</file>
         </group>
     </open-files>
 </project-private>
