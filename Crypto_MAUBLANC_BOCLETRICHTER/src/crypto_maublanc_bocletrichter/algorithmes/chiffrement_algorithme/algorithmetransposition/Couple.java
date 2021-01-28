@@ -11,7 +11,7 @@ import java.util.Comparator;
  *
  * @author iris et albane
  */
-public class Couple implements Comparator<Couple>{
+public class Couple{
     private char caractere;
     private int position;
     
@@ -50,11 +50,5 @@ public class Couple implements Comparator<Couple>{
     public Couple(char caractere, int position){
         this.caractere = caractere;
         this.position = position;
-    }
-
-    @Override
-    public int compare(Couple o1, Couple o2) {
-        //A coder
-        return 0;
     }
 }

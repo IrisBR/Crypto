@@ -5,15 +5,12 @@
  */
 package algorithmes.chiffrement.algorithmetransposition;
 
+import crypto_maublanc_bocletrichter.algorithmes.chiffrement_algorithme.ComparateurCouple;
 import crypto_maublanc_bocletrichter.algorithmes.chiffrement_algorithme.algorithmetransposition.Couple;
 import java.util.ArrayList;
 import java.util.Collections;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
+import static junit.framework.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
@@ -41,3 +38,5 @@ public class TrieListeCoupleTest {
     }
     
 }
+
+

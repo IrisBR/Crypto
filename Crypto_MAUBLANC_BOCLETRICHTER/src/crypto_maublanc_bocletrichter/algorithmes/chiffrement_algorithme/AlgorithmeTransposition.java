@@ -11,6 +11,7 @@ import crypto_maublanc_bocletrichter.donnees.messages.Message;
 import crypto_maublanc_bocletrichter.exceptions.ExceptionConversionImpossible;
 import java.nio.ByteBuffer;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 
 /**
  *
@@ -26,12 +27,12 @@ public class AlgorithmeTransposition implements Algorithme{
 
     @Override
     public Message chiffrer(Message message, Cles clesPubliques, Cles clesPrivees) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
 
     @Override
     public Message dechiffrer(Message message, Cles clesPubliques, Cles clesPrivees) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
     
     /**
@@ -67,8 +68,13 @@ public class AlgorithmeTransposition implements Algorithme{
             //Implémentation du tableau avec le message
             for(int i = 0; i < tailleLigne; i++){
                 for(int j = 0; j < tailleCle; j++){
-                    tab[i][j] = this.bourrage();
+                    if(id >= tailleM){
+                        tab[i][j] = this.bourrage();
+                    }else{
+                        tab[i][j] = message.asString().charAt(id);
+                    }
                     id++;
+                    System.out.println(tab[i][j]);
                 }
             }
         }catch(Exception e){
@@ -85,5 +91,21 @@ public class AlgorithmeTransposition implements Algorithme{
         String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         char c = alphabet.charAt(this.generateur.nextInt(alphabet.length()));
         return c;
+    }
+    
+    /**
+     * Permet de ranvoyer l'odre dans lequel lire les colonnes d'après la clé donnée en paramètre sous forme d'un liste d'entiers
+     * @param cle Cle
+     * @return ArrayList<Integer> 
+     * @throws ExceptionConversionImpossible 
+     */
+    private ArrayList<Integer> getOrdreColonne(Cle cle) throws ExceptionConversionImpossible {
+        ArrayList<Integer> res = new ArrayList<>();
+        try{
+            
+        }catch(Exception e){
+            throw new ExceptionConversionImpossible("Conversion Impossible");
+        }
+        return res;
     }
 }
