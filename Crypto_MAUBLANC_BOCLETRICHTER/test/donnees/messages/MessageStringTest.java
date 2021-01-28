@@ -7,10 +7,6 @@ package donnees.messages;
 
 import crypto_maublanc_bocletrichter.donnees.messages.MessageString;
 import crypto_maublanc_bocletrichter.exceptions.ExceptionConversionImpossible;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

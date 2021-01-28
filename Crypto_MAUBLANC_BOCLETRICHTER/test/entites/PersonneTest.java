@@ -11,10 +11,6 @@ import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 import crypto_maublanc_bocletrichter.donnees.messages.Message;
 import crypto_maublanc_bocletrichter.entites.Personne;
 import java.lang.reflect.Field;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

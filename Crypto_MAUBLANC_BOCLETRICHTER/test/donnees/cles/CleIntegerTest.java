@@ -6,10 +6,6 @@
 package donnees.cles;
 
 import crypto_maublanc_bocletrichter.donnees.cles.CleInteger;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
