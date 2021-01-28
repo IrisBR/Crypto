@@ -13,7 +13,7 @@ import java.security.SecureRandom;
  *
  * @author alban
  */
-public class GenerateurDeClesTransposition implements GenerateurDeCles{
+public class GenerateurDeClesTransposition implements GenerateurDeCles {
     private int taille;
     
     public GenerateurDeClesTransposition(int taille){

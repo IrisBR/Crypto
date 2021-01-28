@@ -5,6 +5,7 @@
  */
 package crypto_maublanc_bocletrichter.algorithmes.chiffrement_algorithme;
 
+import crypto_maublanc_bocletrichter.algorithmes.chiffrement_algorithme.algorithmetransposition.Couple;
 import crypto_maublanc_bocletrichter.donnees.cles.Cle;
 import crypto_maublanc_bocletrichter.donnees.cles.Cles;
 import crypto_maublanc_bocletrichter.donnees.messages.Message;
@@ -101,6 +102,8 @@ public class AlgorithmeTransposition implements Algorithme{
      */
     private ArrayList<Integer> getOrdreColonne(Cle cle) throws ExceptionConversionImpossible {
         ArrayList<Integer> res = new ArrayList<>();
+        ArrayList<Couple> couples = new ArrayList<>();
+        String sCle = cle.asString();
         try{
             
         }catch(Exception e){
