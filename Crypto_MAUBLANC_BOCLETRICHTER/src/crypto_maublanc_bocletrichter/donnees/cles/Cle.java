@@ -5,6 +5,8 @@
  */
 package crypto_maublanc_bocletrichter.donnees.cles;
 
+import crypto_maublanc_bocletrichter.exceptions.ExceptionConversionImpossible;
+
 /**
  *
  * @author iris et albane
@@ -21,5 +23,5 @@ public interface Cle {
      * 
      * @return 
      */
-    public Integer asInteger();
+    public Integer asInteger()throws Exception;
 }

@@ -15,13 +15,17 @@ public class CleString implements Cle{
     
     private String cle;
 
+    /**
+     * Initialise l'attribut cle
+     * @param cle 
+     */
     public CleString(String cle){
         this.cle = cle;
     }
 
     /**
-     * 
-     * @return 
+     * Retourne l'attribut cle sous forme de chaine de caractère si possible
+     * @rreturn 
      */
     @Override
     public String asString() {
@@ -36,8 +40,8 @@ public class CleString implements Cle{
     }
 
     @Override
-    public Integer asInteger() {
-        return null;
+    public Integer asInteger() throws ExceptionConversionImpossible {
+        throw new ExceptionConversionImpossible("Conversion Impossible en Integer");
     }
 
     

@@ -29,7 +29,7 @@ public class GenerateurDeClesTransposition implements GenerateurDeCles{
         String s ="";
         while (s.length()< this.taille){
             SecureRandom rand = new SecureRandom();
-            int i = rand.nextInt();
+            int i = rand.nextInt()%130;
             
             if ((i >= 65 && i <= 90) || (i >= 97 && i <= 122)){
                 String c = Character.toString((char) i);
